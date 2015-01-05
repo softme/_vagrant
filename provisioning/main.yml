@@ -1,0 +1,24 @@
+---
+- hosts: vagrant
+  sudo: true
+  vars_files:
+    - defaults/variables.yml
+
+  roles:
+    - initial
+    - common
+    - nginx
+    - php
+    - composer
+#    - phpredis
+#    - redis
+    - memcached
+#    - sqlite
+    - mysql
+#    - postgresql
+#    - mongodb
+#    - phpmongo
+    - phpmyadmin
+    - adminer
+    - niuniu
+    # - sakila-db

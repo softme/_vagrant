@@ -1,0 +1,37 @@
+---
+- name: Download php_mongo
+  shell: chdir=/tmp wget https://github.com/mongodb/mongo-php-driver/archive/{{ php_mongo_version }}.tar.gz creates={{ php_mongo_version }}.tar.gz
+  
+- name: Unzip php_mongo
+  shell: chdir=/tmp tar xzf {{ php_mongo_version }}.tar.gz
+
+- name: Phpize php_mongo
+  shell: phpize chdir=/tmp/mongo-php-driver-{{ php_mongo_version }}
+  
+- name: Configure php_mongo
+  shell: ./configure chdir=/tmp/mongo-php-driver-{{ php_mongo_version }}
+  
+- name: Make dir php_mongo
+  shell: make chdir=/tmp/mongo-php-driver-{{ php_mongo_version }}
+  
+- name: Install php_mongo
+  shell: make install chdir=/tmp/mongo-php-driver-{{ php_mongo_version }}
+
+- name: Clenup php_mongo files
+  shell: rm /tmp/mongo-php-driver-{{ php_mongo_version }} -R
+  
+- name: Clenup php_mongo files
+  shell: rm /tmp/{{ php_mongo_version }}.tar.gz
+
+- name: Touch php_mongo ini
+  shell: touch /etc/php5/mods-available/mongo.ini
+
+- name: Add php_mongo ini
+  shell: echo "extension=mongo.so" > /etc/php5/mods-available/mongo.ini
+  
+- name: Add php_mongo to FPM
+  shell: ln -s /etc/php5/mods-available/mongo.ini /etc/php5/fpm/conf.d/mongo.ini creates=/etc/php5/fpm/conf.d/mongo.ini
+  notify: restart nginx
+
+- name: Add php_mongo to CLI
+  shell: ln -s /etc/php5/mods-available/mongo.ini /etc/php5/cli/conf.d/mongo.ini creates=/etc/php5/cli/conf.d/mongo.ini

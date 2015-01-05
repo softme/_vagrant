@@ -1,0 +1,22 @@
+hostname: niuniu.try
+
+php_error_reporting: E_ALL
+php_display_errors: On
+php_upload_max_filesize: 20M
+php_post_max_size: 25M
+
+mysql_root_user: root
+mysql_root_pass: root
+mysql_user: yii
+mysql_pass: yii
+mysql_db: niuniu
+mysql_bind_address: 0.0.0.0  # Allows all connections, for Production it should be 127.0.0.1
+mysql_key_buffer: 64M
+
+vhosts:
+  [
+    { name: 'niuniu.local', rootFolder: '/var/www/niuniu/frontend/web'},
+    { name: 'admin.niuniu.local', rootFolder: '/var/www/niuniu/backend/web'},
+    { name: 'phpmyadmin.niuniu.local', rootFolder: '/usr/share/phpmyadmin'},
+    { name: 'adminer.niuniu.local', rootFolder: '/usr/share/adminer'}
+  ]
