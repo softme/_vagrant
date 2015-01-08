@@ -22,7 +22,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # The url from where the 'config.vm.box' box will be fetched if it
     # doesn't already exist on the user's system.
     #config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
-    config.vm.box_url = "../../trusty-server-cloudimg-amd64-vagrant-disk1.box"
+    config.vm.box_url = "../trusty-server-cloudimg-amd64-vagrant-disk1.box"
 
     # Uncomment this line and remove config.vm.box_url above
     # if you need to use 32 bit of Ubuntu
