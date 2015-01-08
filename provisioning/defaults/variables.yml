@@ -18,5 +18,6 @@ vhosts:
     { name: 'niuniu.local', rootFolder: '/var/www/niuniu/frontend/web'},
     { name: 'admin.niuniu.local', rootFolder: '/var/www/niuniu/backend/web'},
     { name: 'phpmyadmin.niuniu.local', rootFolder: '/usr/share/phpmyadmin'},
-    { name: 'adminer.niuniu.local', rootFolder: '/usr/share/adminer'}
+    { name: 'adminer.niuniu.local', rootFolder: '/usr/share/adminer'},
+    { name: 'humhub.local', rootFolder: '/var/www/humhub'}
   ]

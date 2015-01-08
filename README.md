@@ -89,12 +89,12 @@ Press - Preview and then Generate
 ~~~
 
 * And now your Actor CRUD page is generated. You can access it here [http://niuniu.local/index.php?r=actor](http://niuniu.local/index.php?r=actor)
-* Continue playing with other Models, modify code (on your host machine in folder `.../try-yii2/yii2-app-advanced`) make relations between Models etc. Whatever you wish!
+* Continue playing with other Models, modify code (on your host machine in folder `../niuniu`) make relations between Models etc. Whatever you wish!
 
 
 ## Getting deeper ...
 
-* In `try-yii2` folder run `vagrant ssh` to access virtual dev server via SSH. You can modify and setup additionally anything you want.
+* In `niuniu-vagrant` folder run `vagrant ssh` to access virtual dev server via SSH. You can modify and setup additionally anything you want.
 * Or modify Ansible provisioning YML files (if you are familiar with it) and run `vagrant provision` to update server config (WARNING! I can't guarantee that your changes will not be overwritten!)
 
 ## TODO :

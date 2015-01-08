@@ -10,10 +10,10 @@
     - nginx
     - php
     - composer
-#    - phpredis
-#    - redis
+    - phpredis
+    - redis
     - memcached
-#    - sqlite
+    - sqlite
     - mysql
 #    - postgresql
 #    - mongodb
@@ -22,3 +22,4 @@
     - adminer
     - niuniu
     # - sakila-db
+    - humhub
