@@ -11,7 +11,7 @@ required_plugins.each do |plugin|
 	    system "echo OK: #{plugin} already installed"
 	else
 	    system "echo Not installed required plugin: #{plugin} ..."
-		system "vagrant plugin install #{plugin}"
+		system "vagrant plugin install #{plugin} --plugin-source https://ruby.taobao.org/ --verbose"
 	end
 end
 
