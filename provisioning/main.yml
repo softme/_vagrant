@@ -22,4 +22,5 @@
     - adminer
     - niuniu
     # - sakila-db
-    - humhub
+    #- humhub
+    - niuniu-humhub

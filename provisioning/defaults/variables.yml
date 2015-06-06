@@ -1,4 +1,4 @@
-hostname: niuniu.try
+hostname: niuniu.local
 
 php_error_reporting: E_ALL
 php_display_errors: On

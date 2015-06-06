@@ -1,0 +1,11 @@
+- name: clone niuniu project
+  shell: cd /var/www/niuniu-humhub && composer install --prefer-dist && composer update --prefer-dist
+  #shell: git clone git@github.com:terdon-tech/niuniu.git /var/www/niuniu creates=/var/www/niuniu
+  #This must do menualy cause github auth.
+
+#- name: set Init run permissions
+#  file: path=/var/www/niuniu/init mode=0744
+
+#- name: init project
+#  shell: yes | /var/www/niuniu/init --env=Development
+
