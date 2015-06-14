@@ -9,18 +9,19 @@
     - common
     - nginx
     - php
-    - composer
-    - phpredis
-    - redis
-    - memcached
-    - sqlite
-    - mysql
+    # - composer
+    # - phpredis
+    # - redis
+    # - memcached
+    # - sqlite
+    # - mysql
 #    - postgresql
 #    - mongodb
 #    - phpmongo
-    - phpmyadmin
-    - adminer
-    - niuniu
+    # - phpmyadmin
+    # - adminer
+    # - niuniu
     # - sakila-db
     #- humhub
-    - niuniu-humhub
+    # - niuniu-humhub
+    - mcp
