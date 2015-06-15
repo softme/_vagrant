@@ -21,4 +21,5 @@ vhosts:
     { name: 'adminer.niuniu.local', rootFolder: '/usr/share/adminer'},
     { name: 'humhub.local', rootFolder: '/var/www/humhub'},
     { name: 'mcp.local', rootFolder: '/var/www/mcp'},
+    { name: 'eqx.local', rootFolder: '/var/www/eqx'},
   ]
