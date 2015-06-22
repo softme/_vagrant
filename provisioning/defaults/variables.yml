@@ -16,10 +16,15 @@ mysql_key_buffer: 64M
 vhosts:
   [
     { name: 'niuniu.local', rootFolder: '/var/www/niuniu/frontend/web'},
-    { name: 'admin.niuniu.local', rootFolder: '/var/www/niuniu/backend/web'},
-    { name: 'phpmyadmin.niuniu.local', rootFolder: '/usr/share/phpmyadmin'},
-    { name: 'adminer.niuniu.local', rootFolder: '/usr/share/adminer'},
-    { name: 'humhub.local', rootFolder: '/var/www/humhub'},
+    { name: 'os.niuniu.local', rootFolder: '/var/www/niuniu/backend/web'},
+    { name: 'phpmyadmin.local', rootFolder: '/usr/share/phpmyadmin'},
+    { name: 'adminer.local', rootFolder: '/usr/share/adminer'},
+    { name: 'ciims.local', rootFolder: '/var/www/CiiMS'},
     { name: 'mcp.local', rootFolder: '/var/www/mcp'},
+    { name: 'wx.local', rootFolder: '/var/www/yii2-app-wechat/web'},    
+    { name: 'dot.local', rootFolder: '/var/www/dotplant2/application/web'},
+    { name: 'terdon.local', rootFolder: '/var/www/terdon'},
     { name: 'eqx.local', rootFolder: '/var/www/eqx'},
+    { name: 'weiphp.local', rootFolder: '/var/www/Weiphp'},
+    { name: 'wemall.local', rootFolder: '/var/www/wemall'}
   ]

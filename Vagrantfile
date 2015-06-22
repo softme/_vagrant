@@ -55,7 +55,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         # vb.gui = true
         # Use VBoxManage to customize the VM. For example to change memory:
         vb.customize ["modifyvm", :id, "--memory", "512"]
-        vb.customize ["modifyvm", :id, "--name", "NiuNiu"]
+        vb.customize ["modifyvm", :id, "--name", "Terdon"]
         vb.customize ["modifyvm", :id, "--ostype", "Ubuntu_64"]
         vb.customize ["modifyvm", :id, "--cpuexecutioncap", "90"]
         # By default set to 1, change it to amount of your CPUs
@@ -70,7 +70,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.hostmanager.manage_host = true
     config.hostmanager.ignore_private_ip = false
     config.hostmanager.include_offline = true
-    config.hostmanager.aliases =  ["niuniu.local","admin.niuniu.local","phpmyadmin.niuniu.local","adminer.niuniu.local","humhub.local","mcp.local","eqx.local"]
+    config.hostmanager.aliases =  ["phpmyadmin.local","adminer.local","niuniu.local","os.niuniu.local","eqx.local","mcp.local","wx.local","terdon.local","weiphp.local","wemall.local"]
 
     if Vagrant.has_plugin?("vagrant-cachier")
         config.cache.scope = :box
