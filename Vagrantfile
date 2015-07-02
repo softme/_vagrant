@@ -70,7 +70,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.hostmanager.manage_host = true
     config.hostmanager.ignore_private_ip = false
     config.hostmanager.include_offline = true
-    config.hostmanager.aliases =  ["phpmyadmin.local","adminer.local","niuniu.local","os.niuniu.local","eqx.local","mcp.local","wx.local","terdon.local","weiphp.local","wemall.local"]
+    config.hostmanager.aliases =  ["phpmyadmin.local","adminer.local","niuniu.local","os.niuniu.local","mcp.niuniu.local","eqx.local","mcp.local","wx.local","terdon.local","weiphp.local","wemall.local"]
 
     if Vagrant.has_plugin?("vagrant-cachier")
         config.cache.scope = :box

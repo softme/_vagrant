@@ -17,6 +17,7 @@ vhosts:
   [
     { name: 'niuniu.local', rootFolder: '/var/www/niuniu/frontend/web'},
     { name: 'os.niuniu.local', rootFolder: '/var/www/niuniu/backend/web'},
+    { name: 'mcp.niuniu.local', rootFolder: '/var/www/niuniu/mcp/web'},
     { name: 'phpmyadmin.local', rootFolder: '/usr/share/phpmyadmin'},
     { name: 'adminer.local', rootFolder: '/usr/share/adminer'},
     { name: 'ciims.local', rootFolder: '/var/www/CiiMS'},
