@@ -9,25 +9,37 @@
     - common
     - nginx
     - php
-    - composer
+    # - composer
     # - phpredis
     # - redis
     # - memcached
     # - sqlite
-    - mysql
+    # - mysql
 #    - postgresql
 #    - mongodb
 #    - phpmongo
+<<<<<<< HEAD
     - phpmyadmin
     - adminer
     # - niuniu
+=======
+    # - phpmyadmin
+    # - adminer
+    - niuniu
+>>>>>>> 868d2dfaa92d0c49d2d4793a11fbe49daa9d93ba
     # - sakila-db
-    #- humhub
+    # - humhub
     # - niuniu-humhub
+<<<<<<< HEAD
     - mcp
     - eqx
     - weiphp
     - wemall
     - uctoo
     - oc
+=======
+    # - mcp
+    # - eqx
+    - wx
+>>>>>>> 868d2dfaa92d0c49d2d4793a11fbe49daa9d93ba
     - terdon

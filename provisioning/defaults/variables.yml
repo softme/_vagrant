@@ -16,6 +16,7 @@ mysql_key_buffer: 64M
 vhosts:
   [
     { name: 'niuniu.local', rootFolder: '/var/www/niuniu/frontend/web'},
+<<<<<<< HEAD
     { name: 'admin.niuniu.local', rootFolder: '/var/www/niuniu/backend/web'},
     { name: 'phpmyadmin.local', rootFolder: '/usr/share/phpmyadmin'},
     { name: 'adminer.local', rootFolder: '/usr/share/adminer'},
@@ -27,3 +28,18 @@ vhosts:
     { name: 'weiphp.local', rootFolder: '/var/www/Weiphp'},
     { name: 'oc.local', rootFolder: '/var/www/OpenCenter'},
   ]
+=======
+    { name: 'os.niuniu.local', rootFolder: '/var/www/niuniu/backend/web'},
+    { name: 'mcp.niuniu.local', rootFolder: '/var/www/niuniu/mcp/web'},
+    { name: 'phpmyadmin.local', rootFolder: '/usr/share/phpmyadmin'},
+    { name: 'adminer.local', rootFolder: '/usr/share/adminer'},
+    { name: 'ciims.local', rootFolder: '/var/www/CiiMS'},
+    { name: 'mcp.local', rootFolder: '/var/www/mcp'},
+    { name: 'wx.local', rootFolder: '/var/www/yii2-app-wechat/web'},    
+    { name: 'dot.local', rootFolder: '/var/www/dotplant2/application/web'},
+    { name: 'terdon.local', rootFolder: '/var/www/terdon'},
+    { name: 'eqx.local', rootFolder: '/var/www/eqx'},
+    { name: 'weiphp.local', rootFolder: '/var/www/Weiphp'},
+    { name: 'wemall.local', rootFolder: '/var/www/wemall'}
+  ]
+>>>>>>> 868d2dfaa92d0c49d2d4793a11fbe49daa9d93ba
