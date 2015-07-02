@@ -1,0 +1,3 @@
+---
+- name: run OpenCenter project init
+  shell: cd /var/www/OpenCenter
