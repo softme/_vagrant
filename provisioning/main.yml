@@ -18,7 +18,7 @@
 #    - postgresql
 #    - mongodb
 #    - phpmongo
-    # - phpmyadmin
+    - phpmyadmin
     - adminer
     # - niuniu
     # - sakila-db
@@ -26,3 +26,8 @@
     # - niuniu-humhub
     - mcp
     - eqx
+    - weiphp
+    - wemall
+    - uctoo
+    - oc
+    - terdon

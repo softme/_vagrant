@@ -17,9 +17,13 @@ vhosts:
   [
     { name: 'niuniu.local', rootFolder: '/var/www/niuniu/frontend/web'},
     { name: 'admin.niuniu.local', rootFolder: '/var/www/niuniu/backend/web'},
-    { name: 'phpmyadmin.niuniu.local', rootFolder: '/usr/share/phpmyadmin'},
-    { name: 'adminer.niuniu.local', rootFolder: '/usr/share/adminer'},
+    { name: 'phpmyadmin.local', rootFolder: '/usr/share/phpmyadmin'},
+    { name: 'adminer.local', rootFolder: '/usr/share/adminer'},
     { name: 'humhub.local', rootFolder: '/var/www/humhub'},
     { name: 'mcp.local', rootFolder: '/var/www/mcp'},
-    { name: 'eqx.local', rootFolder: '/var/www/eqx'},
+    { name: 'terdon.local', rootFolder: '/var/www/terdon'},
+    { name: 'wemall.local', rootFolder: '/var/www/wemall'},
+    { name: 'uctoo.local', rootFolder: '/var/www/uctoo'},
+    { name: 'weiphp.local', rootFolder: '/var/www/Weiphp'},
+    { name: 'oc.local', rootFolder: '/var/www/OpenCenter'},
   ]
