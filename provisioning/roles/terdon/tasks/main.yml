@@ -1,11 +1,5 @@
-<<<<<<< HEAD:provisioning/roles/eqx/tasks/main.yml
 ---
-- name: run eqx project init
-  shell: cd /var/www/eqx
-=======
-# ---
-# - name: run MCP project init
-#   shell: cd /var/www/mcp
->>>>>>> 868d2dfaa92d0c49d2d4793a11fbe49daa9d93ba:provisioning/roles/terdon/tasks/main.yml
+- name: run TERDON project init
+  shell: cd /var/www/terdon
   #shell: git clone git@github.com:terdon-tech/niuniu.git /var/www/niuniu creates=/var/www/niuniu
   #This must do menualy cause github auth.
