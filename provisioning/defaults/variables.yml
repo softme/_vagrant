@@ -16,6 +16,7 @@ mysql_key_buffer: 64M
 vhosts:
   [
     { name: 'oc.local', rootFolder: '/var/www/OpenCenter'},
+    { name: 'niuniu.local', rootFolder: '/var/www/niuniu/frontend/web'},
     { name: 'os.niuniu.local', rootFolder: '/var/www/niuniu/backend/web'},
     { name: 'mcp.niuniu.local', rootFolder: '/var/www/niuniu/mcp/web'},
     { name: 'phpmyadmin.local', rootFolder: '/usr/share/phpmyadmin'},
@@ -23,7 +24,7 @@ vhosts:
     { name: 'ciims.local', rootFolder: '/var/www/CiiMS'},
     { name: 'mcp.local', rootFolder: '/var/www/mcp'},
     { name: 'wx.local', rootFolder: '/var/www/yii2-app-wechat/web'},
-    { name: 'dot.local', rootFolder: '/var/www/dotplant2/application/web'},
+    { name: 'uctoo.local', rootFolder: '/var/www/uctoo'},
     { name: 'terdon.local', rootFolder: '/var/www/terdon'},
     { name: 'eqx.local', rootFolder: '/var/www/eqx'},
     { name: 'weiphp.local', rootFolder: '/var/www/Weiphp'},

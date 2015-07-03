@@ -12,14 +12,14 @@
     # - composer
     # - phpredis
     # - redis
-    # - memcached
+    - memcached
     # - sqlite
-    # - mysql
+    - mysql
 #    - postgresql
 #    - mongodb
 #    - phpmongo
-    # - phpmyadmin
-    # - adminer
+    - phpmyadmin
+    - adminer
     - niuniu
     # - sakila-db
     # - humhub
