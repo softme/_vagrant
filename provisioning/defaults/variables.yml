@@ -25,7 +25,7 @@ vhosts:
     { name: 'adminer.lc', rootFolder: '/usr/share/adminer'},
     { name: 'mcp.lc', rootFolder: '/var/www/mcp'},
     { name: 'wx.lc', rootFolder: '/var/www/yii2-app-wechat/web'},
-    { name: 'dot.lc', rootFolder: '/var/www/dotplant2/application/web'},
+    { name: 'uctoo.lc', rootFolder: '/var/www/uctoo'},
     { name: 'terdon.lc', rootFolder: '/var/www/terdon'},
     { name: 'eqx.lc', rootFolder: '/var/www/eqx'},
     { name: 'weiphp.lc', rootFolder: '/var/www/Weiphp'},
