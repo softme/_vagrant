@@ -1,5 +1,5 @@
-- name: run niuniu project composer
-  shell: cd /var/www/niuniu && composer install --prefer-dist && composer update --prefer-dist --optimize-autoloader -vvv
+# - name: run niuniu project composer
+  # shell: cd /var/www/niuniu && composer install --prefer-dist && composer update --prefer-dist --optimize-autoloader -vvv
   #shell: git clone git@github.com:terdon-tech/niuniu.git /var/www/niuniu creates=/var/www/niuniu
   #This must do menualy cause github auth.
 

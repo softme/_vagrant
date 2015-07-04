@@ -2,8 +2,8 @@
 - name: set hostname
   shell: hostname {{ hostname }}
 
-- name: update apt cache
-  apt: update_cache=yes
+# - name: update apt cache
+  # apt: update_cache=yes
 
 - name: a bit of locale magic
   shell: "{{ item }}"
