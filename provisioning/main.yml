@@ -12,7 +12,7 @@
     - composer
     # - phpredis
     # - redis
-    # - memcached
+    - memcached
     # - sqlite
     - mysql
 #    - postgresql
