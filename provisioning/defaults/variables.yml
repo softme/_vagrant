@@ -20,7 +20,7 @@ vhosts:
     { name: 'm.tmcp.lc', rootFolder: '/var/www/tmcp/mcp/web'},
     { name: 'tmcp.lc', rootFolder: '/var/www/tmcp/frontend/web'},
     { name: 'os.niuniu.lc', rootFolder: '/var/www/niuniu/backend/web'},
-    { name: 'mcp.niuniu.lc', rootFolder: '/var/www/niuniu/mcp/web'},
+    { name: 'easy.lc', rootFolder: '/var/www/easyii-start'},
     { name: 'phpmyadmin.lc', rootFolder: '/usr/share/phpmyadmin'},
     { name: 'adminer.lc', rootFolder: '/usr/share/adminer'},
     { name: 'mcp.lc', rootFolder: '/var/www/mcp'},
