@@ -15,10 +15,9 @@ mysql_key_buffer: 64M
 
 vhosts:
   [
-    { name: 'oc.lc', rootFolder: '/var/www/OpenCenter'},
-    { name: 'os.tmcp.lc', rootFolder: '/var/www/tmcp/backend/web'},
-    { name: 'm.tmcp.lc', rootFolder: '/var/www/tmcp/mcp/web'},
     { name: 'tmcp.lc', rootFolder: '/var/www/tmcp/frontend/web'},
+    { name: 'os.tmcp.lc', rootFolder: '/var/www/tmcp/backend/web'},
+    { name: 'mcp.tmcp.lc', rootFolder: '/var/www/tmcp/mcp'},
     { name: 'os.niuniu.lc', rootFolder: '/var/www/niuniu/backend/web'},
     { name: 'easy.lc', rootFolder: '/var/www/easyii-start'},
     { name: 'phpmyadmin.lc', rootFolder: '/usr/share/phpmyadmin'},
@@ -31,6 +30,6 @@ vhosts:
     { name: 'weiphp.lc', rootFolder: '/var/www/Weiphp'},
     { name: 'wemall.lc', rootFolder: '/var/www/wemall'},
     { name: 'mb.lc', rootFolder: '/var/www/MicroBuilder'},
-    { name: 'lulu.lc', rootFolder: '/var/www/lulucms'}
+    { name: 'blog.lc', rootFolder: '/var/www/yii2-blog/web'}
 ]
 
