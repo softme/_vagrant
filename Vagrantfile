@@ -54,8 +54,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         # Don't boot with headless mode
         # vb.gui = true
         # Use VBoxManage to customize the VM. For example to change memory:
-        vb.customize ["modifyvm", :id, "--memory", "512"]
-        vb.customize ["modifyvm", :id, "--name", "Terdon"]
+        vb.customize ["modifyvm", :id, "--memory", "1024"]
+        vb.customize ["modifyvm", :id, "--name", "MCP"]
         vb.customize ["modifyvm", :id, "--ostype", "Ubuntu_64"]
         vb.customize ["modifyvm", :id, "--cpuexecutioncap", "90"]
         # By default set to 1, change it to amount of your CPUs
