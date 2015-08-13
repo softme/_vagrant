@@ -17,9 +17,10 @@ vhosts:
   [
     { name: 'tmcp.lc', rootFolder: '/var/www/tmcp/frontend/web'},
     { name: 'os.tmcp.lc', rootFolder: '/var/www/tmcp/backend/web'},
-    { name: 'mcp.tmcp.lc', rootFolder: '/var/www/tmcp/mcp'},
+    { name: 'wq.lc', rootFolder: '/var/www/iisns/frontend/web'},
+    { name: 'os.wq.lc', rootFolder: '/var/www/iisns/backend/web'},
     { name: 'os.niuniu.lc', rootFolder: '/var/www/niuniu/backend/web'},
-    { name: 'easy.lc', rootFolder: '/var/www/easyii-start'},
+    { name: 'simple.lc', rootFolder: '/var/www/yii2-simple/web'},
     { name: 'phpmyadmin.lc', rootFolder: '/usr/share/phpmyadmin'},
     { name: 'adminer.lc', rootFolder: '/usr/share/adminer'},
     { name: 'mcp.lc', rootFolder: '/var/www/mcp'},
@@ -29,7 +30,6 @@ vhosts:
     { name: 'eqx.lc', rootFolder: '/var/www/eqx'},
     { name: 'weiphp.lc', rootFolder: '/var/www/Weiphp'},
     { name: 'wemall.lc', rootFolder: '/var/www/wemall'},
-    { name: 'mb.lc', rootFolder: '/var/www/MicroBuilder'},
-    { name: 'blog.lc', rootFolder: '/var/www/yii2-blog/web'}
+    { name: 'mb.lc', rootFolder: '/var/www/MicroBuilder'}
 ]
 
