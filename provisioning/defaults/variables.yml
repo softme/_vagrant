@@ -17,19 +17,12 @@ vhosts:
   [
     { name: 'tmcp.lc', rootFolder: '/var/www/tmcp/frontend/web'},
     { name: 'os.tmcp.lc', rootFolder: '/var/www/tmcp/backend/web'},
-    { name: 'wq.lc', rootFolder: '/var/www/iisns/frontend/web'},
-    { name: 'os.wq.lc', rootFolder: '/var/www/iisns/backend/web'},
+    { name: 'terdon.dev', rootFolder: '/var/www/terdon/frontend/web'},
+    { name: 'b.terdon.dev', rootFolder: '/var/www/terdon/backend/web'},
+    { name: 's.terdon.dev', rootFolder: '/var/www/terdon/storage/web'},
     { name: 'os.niuniu.lc', rootFolder: '/var/www/niuniu/backend/web'},
-    { name: 'simple.lc', rootFolder: '/var/www/yii2-simple/web'},
-    { name: 'phpmyadmin.lc', rootFolder: '/usr/share/phpmyadmin'},
     { name: 'adminer.lc', rootFolder: '/usr/share/adminer'},
-    { name: 'mcp.lc', rootFolder: '/var/www/mcp'},
     { name: 'wx.lc', rootFolder: '/var/www/yii2-app-wechat/web'},
-    { name: 'uctoo.lc', rootFolder: '/var/www/uctoo'},
-    { name: 'terdon.lc', rootFolder: '/var/www/terdon'},
-    { name: 'eqx.lc', rootFolder: '/var/www/eqx'},
-    { name: 'weiphp.lc', rootFolder: '/var/www/Weiphp'},
-    { name: 'wemall.lc', rootFolder: '/var/www/wemall'},
     { name: 'mb.lc', rootFolder: '/var/www/MicroBuilder'}
 ]
 

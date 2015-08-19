@@ -4,6 +4,15 @@
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
 
+domains = [
+    "adminer.lc",
+    "os.tmcp.lc",
+    "tmcp.lc",
+    "terdon.dev",
+    "b.terdon.dev",
+    "s.terdon.dev"
+]
+
 # check and install required Vagrant plugins
 required_plugins = ["vagrant-hostmanager", "vagrant-vbguest", "vagrant-cachier"]
 required_plugins.each do |plugin|
@@ -70,7 +79,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.hostmanager.manage_host = true
     config.hostmanager.ignore_private_ip = false
     config.hostmanager.include_offline = true
-    config.hostmanager.aliases =  ["adminer.lc","os.tmcp.lc","tmcp.lc","wq.lc","os.wq.lc","simple.lc"]
+    config.hostmanager.aliases =  domains
 
     if Vagrant.has_plugin?("vagrant-cachier")
         config.cache.scope = :box
