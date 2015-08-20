@@ -9,7 +9,7 @@
     - common
     - nginx
     - php
-    - composer
+    # - composer
     # - phpredis
     # - redis
     # - memcached

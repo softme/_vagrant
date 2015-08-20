@@ -6,11 +6,14 @@ VAGRANTFILE_API_VERSION = "2"
 
 domains = [
     "adminer.lc",
-    "os.tmcp.lc",
-    "tmcp.lc",
+    "iisns.dev",
+    "b.iisns.dev",
     "terdon.dev",
     "b.terdon.dev",
-    "s.terdon.dev"
+    "s.terdon.dev",
+    "start.dev",
+    "b.start.dev",
+    "s.start.dev"
 ]
 
 # check and install required Vagrant plugins

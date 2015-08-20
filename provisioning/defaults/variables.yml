@@ -17,12 +17,15 @@ vhosts:
   [
     { name: 'tmcp.lc', rootFolder: '/var/www/tmcp/frontend/web'},
     { name: 'os.tmcp.lc', rootFolder: '/var/www/tmcp/backend/web'},
+    { name: 'iisns.dev', rootFolder: '/var/www/iisns/frontend/web'},
+    { name: 'b.iisns.dev', rootFolder: '/var/www/iisns/backend/web'},
     { name: 'terdon.dev', rootFolder: '/var/www/terdon/frontend/web'},
     { name: 'b.terdon.dev', rootFolder: '/var/www/terdon/backend/web'},
     { name: 's.terdon.dev', rootFolder: '/var/www/terdon/storage/web'},
-    { name: 'os.niuniu.lc', rootFolder: '/var/www/niuniu/backend/web'},
+    { name: 'start.dev', rootFolder: '/var/www/yii2-starter-kit/frontend/web'},
+    { name: 'b.start.dev', rootFolder: '/var/www/yii2-starter-kit/backend/web'},
+    { name: 's.start.dev', rootFolder: '/var/www/yii2-starter-kit/storage/web'},
     { name: 'adminer.lc', rootFolder: '/usr/share/adminer'},
-    { name: 'wx.lc', rootFolder: '/var/www/yii2-app-wechat/web'},
-    { name: 'mb.lc', rootFolder: '/var/www/MicroBuilder'}
+    { name: 'wx.lc', rootFolder: '/var/www/yii2-app-wechat/web'}
 ]
 
