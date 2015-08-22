@@ -15,22 +15,18 @@ mysql_key_buffer: 64M
 
 vhosts:
   [
-    { name: 'tmcp.lc', rootFolder: '/var/www/tmcp/frontend/web'},
-    { name: 'os.tmcp.lc', rootFolder: '/var/www/tmcp/backend/web'},
     { name: 'terdon.dev', rootFolder: '/var/www/terdon/frontend/web'},
     { name: 'b.terdon.dev', rootFolder: '/var/www/terdon/backend/web'},
     { name: 's.terdon.dev', rootFolder: '/var/www/terdon/storage/web'},
     { name: 'core.dev', rootFolder: '/var/www/galaxy/star-core/web'},
     { name: 'home.dev', rootFolder: '/var/www/galaxy/star-home/web'},
-    { name: 'wz.lc', rootFolder: '/var/www/wz'},
-    { name: 'simple.lc', rootFolder: '/var/www/yii2-simple/web'},
     { name: 'adminer.lc', rootFolder: '/usr/share/adminer'},
-    { name: 'mcp.lc', rootFolder: '/var/www/mcp'},
-    { name: 'wx.lc', rootFolder: '/var/www/wx'},
-    { name: 'terdon.lc', rootFolder: '/var/www/terdon'},
-    { name: 'eqx.lc', rootFolder: '/var/www/eqx'},
     { name: 'weiphp.lc', rootFolder: '/var/www/weiphp'},
     { name: 'wemall.lc', rootFolder: '/var/www/wemall'},
-    { name: 'mb.lc', rootFolder: '/var/www/MicroBuilder'}
+    { name: 'iisns.dev', rootFolder: '/var/www/iisns/frontend/web'},
+    { name: 'b.iisns.dev', rootFolder: '/var/www/iisns/backend/web'},
+    { name: 'start.dev', rootFolder: '/var/www/yii2-starter-kit/frontend/web'},
+    { name: 'b.start.dev', rootFolder: '/var/www/yii2-starter-kit/backend/web'},
+    { name: 's.start.dev', rootFolder: '/var/www/yii2-starter-kit/storage/web'}
 ]
 
