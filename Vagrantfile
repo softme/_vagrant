@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 domains = [
     "adminer.lc",
-    "iisns.dev",
+    "humhub.dev",
     "b.iisns.dev",
     "terdon.dev",
     "b.terdon.dev",

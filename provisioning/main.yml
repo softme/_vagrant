@@ -9,7 +9,7 @@
     - common
     - nginx
     - php
-    # - composer
+    - composer
     # - phpredis
     # - redis
     # - memcached
@@ -29,4 +29,4 @@
     # - uctoo
     # - wx
     - terdon
-    - tmcp
+    # - tmcp
