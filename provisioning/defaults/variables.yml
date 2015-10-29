@@ -16,13 +16,12 @@ mysql_key_buffer: 64M
 vhosts:
   [
     { name: 'terdon.lc', rootFolder: '/var/www/terdon/frontend/web'},
+    { name: 'b.terdon.lc', rootFolder: '/var/www/terdon/backend/web'},
+    { name: 's.terdon.lc', rootFolder: '/var/www/terdon/storage/web'}
     { name: 'humhub.lc', rootFolder: '/var/www/humhub'},
     { name: 'core.lc', rootFolder: '/var/www/galaxy/star-core/web'},
     { name: 'home.lc', rootFolder: '/var/www/galaxy/star-home/web'},
     { name: 'adminer.lc', rootFolder: '/usr/share/adminer'},
-    { name: 'iwshop.lc', rootFolder: '/var/www/iWshop'},
-    { name: 'start.lc', rootFolder: '/var/www/yii2-starter-kit/frontend/web'},
-    { name: 'b.start.lc', rootFolder: '/var/www/yii2-starter-kit/backend/web'},
-    { name: 's.start.lc', rootFolder: '/var/www/yii2-starter-kit/storage/web'}
+    { name: 'wecenter.lc', rootFolder: '/var/www/wecenter'}
 ]
 
