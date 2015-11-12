@@ -6,11 +6,14 @@ VAGRANTFILE_API_VERSION = "2"
 
 domains = [
     "adminer.lc",
-    "humhub.lc",
-    "wecenter.lc",
     "terdon.lc",
     "b.terdon.lc",
-    "s.terdon.lc"
+    "s.terdon.lc",
+    "funshop.lc",
+    "b.funshop.lc",
+    "getyii.lc",
+    "b.getyii.lc",
+    "teamtoy.lc"
 ]
 
 # check and install required Vagrant plugins
